@@ -1,0 +1,568 @@
+#trigger {
+  position: absolute;
+  top: 12.5vh;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+p,
+h1 {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+h1 {
+  padding: 2vw 4vw;
+  font-weight: 100;
+  font-size: 13vw;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    background-color: #ffffff80;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  h1 {
+    font-size: 20vw;
+    background-color: #ffffffad;
+  }
+}
+
+h2 {
+  font-weight: 100;
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+}
+
+h3 {
+  color: #fff;
+  font-weight: 100;
+  font-family: "Raleway", sans-serif;
+}
+
+@media screen and (max-width: 575px) {
+  h3 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.hero {
+  top: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: url("../img/heroGtStreet.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.startNav {
+  height: 150px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 0 3rem;
+  -webkit-box-shadow: 0 0 0;
+          box-shadow: 0 0 0;
+}
+
+.contNav {
+  background-color: #f7f7f7;
+  height: 60px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 0 1rem;
+  -webkit-box-shadow: 0 0 1px;
+          box-shadow: 0 0 1px;
+}
+
+nav {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.85rem;
+  list-style-type: none;
+  padding: 0 1rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+nav li:hover {
+  background-color: #fff;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 0.5rem #fff, 0 0 0 calc(0.5rem + 1px) #ddd;
+          box-shadow: 0 0 0 0.5rem #fff, 0 0 0 calc(0.5rem + 1px) #ddd;
+}
+
+nav .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: calc(60px + 1rem) 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-height: 100vh;
+}
+
+.about div {
+  max-width: 60ch;
+}
+
+.about p {
+  margin-bottom: 1rem;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6;
+}
+
+.drinks {
+  padding: calc(60px + 1rem) 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-height: 100vh;
+}
+
+.drinks h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.drinkCard {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.drinkCard .drinkText {
+  position: absolute;
+  top: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #00000080;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.drinkCard .drinkText h3 {
+  white-space: pre-line;
+  text-align: center;
+}
+
+.drinkCard .drinkText .ingredients {
+  white-space: pre-line;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .drinkCard .drinkText .ingredients {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .drinkCard .drinkText .ingredients {
+    font-size: 0.7rem;
+    font-weight: 200;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .drinkCard .drinkText .ingredients {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .drinkCard .drinkText .ingredients {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .drinkCard .drinkText .ingredients {
+    font-size: 1.1rem;
+  }
+}
+
+.drinkCard .drinkText button {
+  all: unset;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin: 1rem;
+  background-color: #ffffffe6;
+  padding: 0.25rem 1rem;
+  border-radius: 0.125rem;
+}
+
+@media screen and (max-width: 575px) {
+  .drinkCard .drinkText button {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .drinkCard .drinkText button {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .drinkCard .drinkText button {
+    font-size: 0.7rem;
+    font-weight: 200;
+  }
+}
+
+.drinkCard .drinkText:hover {
+  opacity: 1;
+}
+
+.drinkCard img {
+  width: 100%;
+}
+
+.drinkCard:before {
+  content: '';
+  display: block;
+  padding-top: 125%;
+}
+
+.coffee {
+  padding: calc(60px + 1rem) 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-height: 100vh;
+}
+
+.flexWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.flexWrapper .loadMore {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  color: #fff;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  -webkit-box-shadow: 0px 0px 0px #bfbfbf;
+          box-shadow: 0px 0px 0px #bfbfbf;
+}
+
+.flexWrapper .loadMore:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0px 0.25rem 0.5rem #bfbfbf;
+          box-shadow: 0px 0.25rem 0.5rem #bfbfbf;
+}
+
+@media screen and (max-width: 767px) {
+  .flexWrapper {
+    font-size: 1.3rem;
+  }
+}
+
+.drinksModalBG {
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 60px;
+  background-color: #fff;
+  width: 100%;
+  height: calc(100% - 60px);
+}
+
+.drinksModalBG .drinksModal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 90%;
+  -webkit-box-shadow: 0 0 0.5rem #000;
+          box-shadow: 0 0 0.5rem #000;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .drinksModalBG .drinksModal {
+    height: calc(90% - 25%);
+  }
+}
+
+.drinksModalBG img {
+  height: 100%;
+}
+
+.drinksModalBG .drinksInfo {
+  white-space: pre-line;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3rem 1rem 1rem 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .drinksModalBG .drinksInfo h3 {
+    font-size: 1.8rem;
+  }
+  .drinksModalBG .drinksInfo div {
+    font-size: 0.9rem;
+  }
+}
+
+.drinksModalBG p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #fffd;
+}
+
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+#close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 1rem;
+  width: 90%;
+  position: absolute;
+}
+
+#close .crossX {
+  margin: 1rem;
+  height: 25px;
+  width: 3px;
+  border-radius: 100vw;
+  background-color: #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#close .crossY {
+  height: 25px;
+  width: 3px;
+  border-radius: 100vw;
+  background-color: #fff;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+footer {
+  background-color: #333;
+}
+
+footer .copyright {
+  padding-bottom: 1rem;
+  color: #ddd;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  footer .copyright {
+    font-size: 1rem;
+  }
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #333;
+  padding: 2rem;
+}
+
+.footer .box {
+  color: #fff;
+  padding: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+  line-height: 2;
+  margin: 0 1rem;
+}
+
+.footer .box a:hover {
+  color: yellow;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .footer .box {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+  }
+  .footer .box h4 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .footer .box {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  .footer .box h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */
