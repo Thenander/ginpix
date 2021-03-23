@@ -321,15 +321,15 @@ nav {
 }
 
 .drinksModalBG {
+  z-index: 1;
   cursor: pointer;
-  // display: none;
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: 60px;
+  top: 0;
   background-color: #fff;
   width: 100%;
-  height: calc(100% - 60px);
+  height: 100%;
 
   .drinksModal {
     display: flex;
