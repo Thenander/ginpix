@@ -164,14 +164,43 @@ nav {
   margin-top: 1rem;
   margin-bottom: 1rem;
   min-height: 100vh;
+}
+
+.aboutMe {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 0.85rem;
 
   div {
     max-width: 60ch;
   }
+
   p {
     margin-bottom: 1rem;
     font-family: $mainFont;
     line-height: 1.6;
+  }
+
+  img {
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    width: 25%;
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      width: 35%;
+    }
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
   }
 }
 

@@ -189,14 +189,57 @@ nav .links {
   min-height: 100vh;
 }
 
-.about div {
+.aboutMe {
+  margin-top: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: 0.85rem;
+}
+
+.aboutMe div {
   max-width: 60ch;
 }
 
-.about p {
+.aboutMe p {
   margin-bottom: 1rem;
   font-family: "Raleway", sans-serif;
   line-height: 1.6;
+}
+
+.aboutMe img {
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  width: 25%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .aboutMe img {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutMe img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .aboutMe {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 1rem;
+  }
 }
 
 .drinks {
