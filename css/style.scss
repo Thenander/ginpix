@@ -185,6 +185,8 @@ nav {
   }
 
   img {
+    outline: 1px solid #fff;
+    outline-offset: -3ch;
     margin-right: 3rem;
     margin-bottom: 2rem;
     width: 25%;
@@ -316,12 +318,65 @@ nav {
 }
 
 // Coffee
-.coffee {
+.equipment {
+  display: grid;
+  place-items: center;
   padding: calc(60px + 1rem) 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  // background-color: #eee;
   min-height: 100vh;
+}
+
+.myEquipment {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+
+  div {
+    max-width: 60ch;
+  }
+
+  h5 {
+    font-family: $mainFont;
+    margin-bottom: 0.2rem;
+    font-weight: 300;
+    color: $darkgrey;
+  }
+
+  li {
+    font-family: $mainFont;
+    color: $darkgrey;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    font-family: $mainFont;
+    line-height: 1.6;
+  }
+
+  img {
+    outline: 1px solid #fff;
+    outline-offset: -7ch;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+    max-width: 45ch;
+    @media screen and (max-width: 575px) {
+      flex-direction: column;
+      padding: 0 1rem;
+      max-width: calc(100% - 2rem);
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+  }
 }
 
 .flexWrapper {

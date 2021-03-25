@@ -215,6 +215,8 @@ nav .links {
 }
 
 .aboutMe img {
+  outline: 1px solid #fff;
+  outline-offset: -3ch;
   margin-right: 3rem;
   margin-bottom: 2rem;
   width: 25%;
@@ -378,11 +380,84 @@ nav .links {
   padding-top: 125%;
 }
 
-.coffee {
+.equipment {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
   padding: calc(60px + 1rem) 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
   min-height: 100vh;
+}
+
+.myEquipment {
+  margin-top: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.85rem;
+}
+
+.myEquipment div {
+  max-width: 60ch;
+}
+
+.myEquipment h5 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 0.2rem;
+  font-weight: 300;
+  color: #333;
+}
+
+.myEquipment li {
+  font-family: "Raleway", sans-serif;
+  color: #333;
+}
+
+.myEquipment p {
+  margin-bottom: 1rem;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6;
+}
+
+.myEquipment img {
+  outline: 1px solid #fff;
+  outline-offset: -7ch;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+  max-width: 45ch;
+}
+
+@media screen and (max-width: 575px) {
+  .myEquipment img {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 1rem;
+    max-width: calc(100% - 2rem);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .myEquipment {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 1rem;
+  }
 }
 
 .flexWrapper {
