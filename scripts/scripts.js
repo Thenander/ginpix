@@ -86,12 +86,12 @@ const createRecipe = (name, recipe) => {
 }
 
 const createTech = tech => {
-  const { camera, lens, focal, aperture, iso } = tech
+  const { camera, lens, shutter, aperture, iso, glassware } = tech
 
   const wrapper = crEl('div')
   const techDiv = crEl('div')
   const techDivContent = crTxtNd(
-    `Camera: ${camera}\nLens: ${lens}\nFocal length: ${focal}\nAperture: ${aperture}\nISO: ${iso}`
+    `Camera: ${camera}\nLens: ${lens}\nShutter speed: ${shutter}\nAperture: ${aperture}\nISO: ${iso}\n\nGlassware: ${glassware}`
   )
 
   techDiv.append(techDivContent)
@@ -101,12 +101,13 @@ const createTech = tech => {
 }
 
 const showImage = (e, drink, IMG_BASE_URL, color) => {
-  const { recipe, id, img, name, tech } = drink
+  const { recipe, id, img, name, tech, uniqueColor } = drink
   const imgUrl = IMG_BASE_URL + img
 
   const closingX = createX()
   const theDrink = createRecipe(name, recipe)
   const theTech = createTech(tech)
+  theTech.className = 'tech'
 
   const drinksModalBG = document.querySelector('.drinksModalBG')
   drinksModalBG.classList.remove('hide')
@@ -115,7 +116,7 @@ const showImage = (e, drink, IMG_BASE_URL, color) => {
   // Create inner div
   const drinksModal = crEl('div')
   drinksModal.className = 'drinksModal'
-  drinksModal.style.backgroundColor = color
+  drinksModal.style.backgroundColor = uniqueColor || color
   drinksModalBG.append(drinksModal)
 
   // Create image
@@ -134,12 +135,20 @@ const showImage = (e, drink, IMG_BASE_URL, color) => {
 
   drinksModal.append(textInfoWrapper)
 
-  // Close modal
-  drinksModalBG.addEventListener('click', () => {
+  const closeModal = () => {
     document.body.style.position = ''
     drinksModal.remove()
     drinksModalBG.classList.remove('show')
     drinksModalBG.classList.add('hide')
+  }
+
+  // Close modal
+  drinksModalBG.addEventListener('click', () => {
+    closeModal()
+  })
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeModal()
   })
 }
 
@@ -150,7 +159,7 @@ const setLoadMoreButtonColor = color => {
 
 const makeDrinkCard = drink => {
   // Variables
-  const { recipe, id, img, name } = drink
+  const { recipe, id, img, name, uniqueColor } = drink
 
   const color = ['#8e4f8f', '#40728f', '#8f6732', '#598f39']
   const colClass = 'col-md-4'
@@ -159,8 +168,9 @@ const makeDrinkCard = drink => {
   const drinkTextClass = 'drinkText'
   const ingredientsClass = 'ingredients'
   const colStyleMarginBottom = '1rem'
-  const drinkCardStyleBorder = '0.5rem solid ' + color[id % 4]
-  const btnContent = 'MORE'
+  const colour = uniqueColor || color[id % 4]
+  const drinkCardStyleBorder = '0.5rem solid ' + colour
+  const btnContent = 'MORE INFO'
   const drinkButton = 'drinkButton'
 
   setLoadMoreButtonColor(color[(id - 1) % 4])

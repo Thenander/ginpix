@@ -145,6 +145,15 @@ nav {
       flex-wrap: nowrap;
 }
 
+nav .logo {
+  height: 100%;
+  padding-bottom: 0.5rem;
+}
+
+nav .logo img {
+  height: 100%;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -339,9 +348,9 @@ nav .links {
   font-family: 'Raleway', sans-serif;
   font-size: 0.85rem;
   font-weight: 400;
-  margin: 1rem;
+  margin: 1em;
   background-color: #ffffffe6;
-  padding: 0.25rem 1rem;
+  padding: 0.5em 1.5em;
   border-radius: 0.125rem;
 }
 
@@ -530,8 +539,23 @@ nav .links {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .drinksModalBG .drinksModal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .drinksModalBG img {
   height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .drinksModalBG img {
+    display: none;
+  }
 }
 
 .drinksModalBG .drinksInfo {
@@ -549,16 +573,60 @@ nav .links {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 3rem 1rem 1rem 1rem;
   width: 100%;
 }
 
+.drinksModalBG .drinksInfo .recipe h3,
+.drinksModalBG .drinksInfo .recipe div,
+.drinksModalBG .drinksInfo .tech h3,
+.drinksModalBG .drinksInfo .tech div {
+  margin: 1em 1rem;
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .drinksModalBG .drinksInfo h3 {
+  .drinksModalBG .drinksInfo .recipe h3 {
     font-size: 1.8rem;
   }
-  .drinksModalBG .drinksInfo div {
+  .drinksModalBG .drinksInfo .recipe div {
     font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .drinksModalBG .drinksInfo {
+    padding: 0;
+    height: 100%;
+  }
+  .drinksModalBG .drinksInfo h3 {
+    font-size: 3rem;
+    margin: 1em 2rem;
+  }
+  .drinksModalBG .drinksInfo div {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 575px) {
+  .drinksModalBG .drinksInfo {
+    height: 100%;
+  }
+  .drinksModalBG .drinksInfo h3 {
+    font-size: 3rem;
+  }
+  .drinksModalBG .drinksInfo div {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .drinksModalBG .drinksInfo {
+    height: 100%;
+  }
+  .drinksModalBG .drinksInfo h3 {
+    font-size: 2.3rem;
+  }
+  .drinksModalBG .drinksInfo div {
+    font-size: 1.2rem;
   }
 }
 
