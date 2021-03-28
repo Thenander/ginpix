@@ -6,13 +6,20 @@ window.onload = () => {
   const observedTrigger = document.getElementById('trigger')
   const menu = document.querySelector('nav')
 
+  const navi = document.querySelector('.navUl')
+  if (window.innerWidth < 992) {
+    navi.style.height = '0'
+  } else {
+    navi.removeAttribute('height')
+  }
+
   const hideMenu = new IntersectionObserver((entries, observer) => {
     entries.forEach(anotherEntry => {
       const { isIntersecting: observedHeroIsIntersecting } = anotherEntry
 
       if (observedHeroIsIntersecting) {
-        navbar.classList.remove('navTopOff')
-        navbar.classList.add('navTopOn')
+        navbar && navbar.classList.remove('navTopOff')
+        navbar && navbar.classList.add('navTopOn')
       } else {
         let prevScrollpos = window.pageYOffset
         window.onscroll = () => {
@@ -22,11 +29,11 @@ window.onload = () => {
             prevScrollpos < currentScrollPos &&
             currentScrollPos > heroHeight
           ) {
-            navbar.classList.remove('navTopOn')
-            navbar.classList.add('navTopOff')
+            navbar && navbar.classList.remove('navTopOn')
+            navbar && navbar.classList.add('navTopOff')
           } else {
-            navbar.classList.remove('navTopOff')
-            navbar.classList.add('navTopOn')
+            navbar && navbar.classList.remove('navTopOff')
+            navbar && navbar.classList.add('navTopOn')
           }
           prevScrollpos = currentScrollPos
         }
@@ -276,3 +283,32 @@ const fetchMoreData = () => {
 
 document.querySelector('.copyright').innerText =
   '© ' + new Date().getFullYear() + ' Joacim Thenander. All rights reserved.'
+
+// Hamburger menu
+const hamburgerBtn = document.querySelector('.menu-toggle')
+let menuOpen = false
+hamburgerBtn.addEventListener('click', () => {
+  const navUl = document.querySelector('.navUl')
+  if (!menuOpen) {
+    navUl.style.height = '100vh'
+    hamburgerBtn.classList.remove('hamburgerMenuClose')
+    hamburgerBtn.classList.add('hamburgerMenuOpen')
+    menuOpen = true
+  } else {
+    navUl.style.height = '0'
+    hamburgerBtn.classList.remove('hamburgerMenuOpen')
+    hamburgerBtn.classList.add('hamburgerMenuClose')
+    menuOpen = false
+  }
+})
+
+window.onresize = () => {
+  const navi = document.querySelector('.navUl')
+  const hamBtn = document.querySelector('.menu-toggle')
+  if (window.innerWidth < 992) {
+    navi.style.height = '0'
+  } else {
+    navi.removeAttribute('height')
+    hamBtn.classList.remove('hamburgerMenuOpen')
+  }
+}

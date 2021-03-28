@@ -100,7 +100,7 @@ h4 {
 
 .startNav {
   height: 150px;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
   padding: 0 3rem;
   box-shadow: 0 0 0;
 }
@@ -108,7 +108,7 @@ h4 {
 .contNav {
   background-color: $background;
   height: 60px;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
   padding: 0 1rem;
   box-shadow: 0 0 1px;
 }
@@ -121,7 +121,70 @@ h4 {
 //   top: -150px;
 // }
 
-nav {
+.menu-toggle {
+  cursor: pointer;
+  display: none;
+  @media screen and (max-width: 991px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 1rem;
+    top: 0;
+    width: 40px;
+    height: 60px;
+  }
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  position: absolute;
+  display: block;
+  content: '';
+  background: #8c8c8c;
+  height: 5px;
+  width: 40px;
+  border-radius: 100vw;
+}
+
+.hamburger::before {
+  transform: translateY(-10px);
+}
+
+.hamburger::after {
+  transform: translateY(10px);
+}
+
+.hamburgerMenuOpen .hamburger {
+  transform: rotate(45deg);
+  transition: 0.3s;
+  &::before {
+    transform: translateY(0);
+    transition: 0.3s;
+    opacity: 0;
+  }
+  &::after {
+    transform: rotate(-90deg);
+    transition: 0.3s;
+  }
+}
+
+.hamburgerMenuClose .hamburger {
+  transform: rotate(0);
+  transition: 0.3s;
+  &::before {
+    transform: translateY(-10px);
+    opacity: 1;
+    transition: 0.3s;
+  }
+  &::after {
+    transform: rotate(0) translateY(10px);
+    transition: 0.3s;
+  }
+}
+
+.navbar {
   z-index: 1;
   position: fixed;
   width: 100%;
@@ -139,7 +202,7 @@ nav {
   }
 
   ul {
-    margin: 0;
+    // margin: 0;
     padding: 0;
     display: flex;
   }
@@ -162,6 +225,39 @@ nav {
     display: flex;
     align-items: center;
   }
+
+  @media screen and (max-width: 991px) {
+    position: fixed;
+    height: 60px;
+    padding: 0 1rem;
+
+    ul {
+      overflow: hidden;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      flex-direction: column;
+      background-color: #000000d1;
+      width: 100%;
+      text-align: center;
+    }
+
+    li {
+      color: $lightgrey;
+      padding: 1.2rem;
+
+      &:hover,
+      &:focus {
+        background-color: $background;
+        color: $darkgrey;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+.height100 {
+  height: 100vh;
 }
 
 // About

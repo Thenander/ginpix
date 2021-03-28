@@ -111,8 +111,8 @@ h4 {
 
 .startNav {
   height: 150px;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   padding: 0 3rem;
   -webkit-box-shadow: 0 0 0;
           box-shadow: 0 0 0;
@@ -121,14 +121,104 @@ h4 {
 .contNav {
   background-color: #f7f7f7;
   height: 60px;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   padding: 0 1rem;
   -webkit-box-shadow: 0 0 1px;
           box-shadow: 0 0 1px;
 }
 
-nav {
+.menu-toggle {
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .menu-toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    right: 1rem;
+    top: 0;
+    width: 40px;
+    height: 60px;
+  }
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  position: absolute;
+  display: block;
+  content: '';
+  background: #8c8c8c;
+  height: 5px;
+  width: 40px;
+  border-radius: 100vw;
+}
+
+.hamburger::before {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.hamburger::after {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.hamburgerMenuOpen .hamburger {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hamburgerMenuOpen .hamburger::before {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.hamburgerMenuOpen .hamburger::after {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hamburgerMenuClose .hamburger {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hamburgerMenuClose .hamburger::before {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hamburgerMenuClose .hamburger::after {
+  -webkit-transform: rotate(0) translateY(10px);
+          transform: rotate(0) translateY(10px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar {
   z-index: 1;
   position: fixed;
   width: 100%;
@@ -145,24 +235,23 @@ nav {
       flex-wrap: nowrap;
 }
 
-nav .logo {
+.navbar .logo {
   height: 50%;
   opacity: 0.7;
 }
 
-nav .logo img {
+.navbar .logo img {
   height: 100%;
 }
 
-nav ul {
-  margin: 0;
+.navbar ul {
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-nav li {
+.navbar li {
   color: #333;
   font-family: 'Raleway', sans-serif;
   font-size: 0.85rem;
@@ -172,20 +261,55 @@ nav li {
   transition: 0.2s ease-in-out;
 }
 
-nav li:hover {
+.navbar li:hover {
   background-color: #fff;
   cursor: pointer;
   -webkit-box-shadow: 0 0 0 0.5rem #fff, 0 0 0 calc(0.5rem + 1px) #ddd;
           box-shadow: 0 0 0 0.5rem #fff, 0 0 0 calc(0.5rem + 1px) #ddd;
 }
 
-nav .links {
+.navbar .links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    position: fixed;
+    height: 60px;
+    padding: 0 1rem;
+  }
+  .navbar ul {
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #000000d1;
+    width: 100%;
+    text-align: center;
+  }
+  .navbar li {
+    color: #ddd;
+    padding: 1.2rem;
+  }
+  .navbar li:hover, .navbar li:focus {
+    background-color: #f7f7f7;
+    color: #333;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.height100 {
+  height: 100vh;
 }
 
 .about {
