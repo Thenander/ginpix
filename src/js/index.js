@@ -1,4 +1,4 @@
-const IMG_BASE_URL = '../img/'
+const IMG_BASE_URL = 'img/'
 
 window.onload = () => {
   const observedHero = document.getElementById('home')
@@ -13,7 +13,7 @@ window.onload = () => {
     navi.removeAttribute('height')
   }
 
-  const hideMenu = new IntersectionObserver((entries, observer) => {
+  const hideMenu = new IntersectionObserver(entries => {
     entries.forEach(anotherEntry => {
       const { isIntersecting: observedHeroIsIntersecting } = anotherEntry
 
@@ -256,7 +256,7 @@ let drinks = []
 let count = 0
 
 const fetchData = async () => {
-  const response = await fetch('../json/drinks.json')
+  const response = await fetch('json/drinks.json')
   const data = await response.json()
   arrayLength = data.drinks.length
 
@@ -281,8 +281,11 @@ const fetchMoreData = () => {
   fetchData()
 }
 
-document.querySelector('.copyright').innerText =
-  '© ' + new Date().getFullYear() + ' Joacim Thenander. All rights reserved.'
+// Print copyright
+
+document.querySelector(
+  '.copyright'
+).innerText = `© ${new Date().getFullYear()} Joacim Thenander. All rights reserved`
 
 // Hamburger menu
 const hamburgerBtn = document.querySelector('.menu-toggle')
