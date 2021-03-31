@@ -36,6 +36,16 @@ a {
   }
 }
 
+.navUl a {
+  padding: 0.5rem 1rem;
+  transition: 0.2s ease-in-out;
+  &:hover {
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px $lightgrey;
+  }
+}
+
 h1 {
   padding: 2vw 4vw;
   font-weight: 100;
@@ -212,13 +222,6 @@ h4 {
     font-family: 'Raleway', sans-serif;
     font-size: 0.85rem;
     list-style-type: none;
-    padding: 0 1rem;
-    transition: 0.2s ease-in-out;
-    &:hover {
-      background-color: #fff;
-      cursor: pointer;
-      box-shadow: 0 0 0 0.5rem #fff, 0 0 0 calc(0.5rem + 1px) $lightgrey;
-    }
   }
 
   .links {
@@ -444,7 +447,7 @@ h4 {
     max-width: 60ch;
   }
 
-  h5 {
+  h3 {
     font-family: $mainFont;
     margin-bottom: 0.2rem;
     font-weight: 300;

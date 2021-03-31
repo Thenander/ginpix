@@ -22,6 +22,19 @@ a:hover {
   color: inherit;
 }
 
+.navUl a {
+  padding: 0.5rem 1rem;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.navUl a:hover {
+  background-color: #fff;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 1px #ddd;
+          box-shadow: 0 0 0 1px #ddd;
+}
+
 h1 {
   padding: 2vw 4vw;
   font-weight: 100;
@@ -256,16 +269,6 @@ h4 {
   font-family: 'Raleway', sans-serif;
   font-size: 0.85rem;
   list-style-type: none;
-  padding: 0 1rem;
-  -webkit-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
-}
-
-.navbar li:hover {
-  background-color: #fff;
-  cursor: pointer;
-  -webkit-box-shadow: 0 0 0 0.5rem #fff, 0 0 0 calc(0.5rem + 1px) #ddd;
-          box-shadow: 0 0 0 0.5rem #fff, 0 0 0 calc(0.5rem + 1px) #ddd;
 }
 
 .navbar .links {
@@ -546,7 +549,7 @@ h4 {
   max-width: 60ch;
 }
 
-.myEquipment h5 {
+.myEquipment h3 {
   font-family: "Raleway", sans-serif;
   margin-bottom: 0.2rem;
   font-weight: 300;
