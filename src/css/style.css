@@ -256,6 +256,7 @@ h4 {
 
 .navbar .logo img {
   height: 100%;
+  width: initial;
 }
 
 .navbar ul {
@@ -357,17 +358,20 @@ h4 {
   margin-right: 3rem;
   margin-bottom: 2rem;
   width: 25%;
+  height: initial;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .aboutMe img {
     width: 35%;
+    height: initial;
   }
 }
 
 @media screen and (max-width: 767px) {
   .aboutMe img {
     width: 100%;
+    height: initial;
   }
 }
 
@@ -574,6 +578,7 @@ h4 {
   border-radius: 100%;
   margin-bottom: 2rem;
   max-width: 45ch;
+  height: initial;
 }
 
 @media screen and (max-width: 575px) {
@@ -584,6 +589,7 @@ h4 {
             flex-direction: column;
     padding: 0 1rem;
     max-width: calc(100% - 2rem);
+    height: initial;
   }
 }
 
