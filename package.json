@@ -18,5 +18,8 @@
     "gulp-postcss": "^9.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-terser": "^2.0.1"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.4.1"
   }
 }
