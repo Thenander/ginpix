@@ -3,7 +3,7 @@
     {
       "id": "42",
       "name": "Hellström\nGibson Martini",
-      "recipe": "60 ml Hellström Dry Gin\n10 ml Noilly Prat Dry Vermouth\nPearl onions",
+      "recipe": "60 ml AB Hellström Dry Gin\n10 ml Noilly Prat Dry Vermouth\nPearl onions",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -17,8 +17,8 @@
     },
     {
       "id": "41",
-      "name": "Gibson Exception\nDirty Martini",
-      "recipe": "60 ml Gibson Exception London Dry Gin\n7.5 ml Noilly Prat Dry Vermouth\n5 ml olive brine\nOlives",
+      "name": "Gibson's Exception\nDirty Martini",
+      "recipe": "60 ml Gibson's Exception London Dry Gin\n7.5 ml Noilly Prat Dry Vermouth\n5 ml olive brine\nOlives",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -64,7 +64,7 @@
     {
       "id": "38",
       "name": "Åre Local's Edition\nGin & Tonic",
-      "recipe": "60 ml Åre Bränneri Local's Edition Dry Gin\n100 ml Ekobryggeriet Spruce Shoots Tonic\nDried orange slice\nIce",
+      "recipe": "60 ml Åre Bränneri Local's Edition Scandinavian Gin\n100 ml Ekobryggeriet Spruce Shoots Tonic\nDried orange slice\nIce",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -79,7 +79,7 @@
     {
       "id": "37",
       "name": "Hernö Pink BTL\nDry Martini",
-      "recipe": "75 ml Hernö Pink BTL Gin\n10 ml Noilly Prat Dry Vermouth\nOlives",
+      "recipe": "75 ml Hernö Pink BTL\n10 ml Noilly Prat Dry Vermouth\nOlives",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -123,8 +123,8 @@
     },
     {
       "id": "34",
-      "name": "Gibson Exception\nDirty Martini",
-      "recipe": "75 ml Gibson Exception Dry Gin\n15 ml Noilly Prat Dry Vermouth\n10 ml olive brine\nOlives",
+      "name": "Gibson's Exception\nDirty Martini",
+      "recipe": "75 ml Gibson's Exception London Dry Gin\n15 ml Noilly Prat Dry Vermouth\n10 ml olive brine\nOlives",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -154,7 +154,7 @@
     {
       "id": "32",
       "name": "Smoky\nNeat",
-      "recipe": "40 ml Smoky Gin",
+      "recipe": "40 ml Smoky Nordic Coastal Gin",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -184,7 +184,7 @@
     {
       "id": "30",
       "name": "Purity Organic\nGin and Tonic",
-      "recipe": "50 ml Purity Dry Organic Gin\n100 ml Scandinavian Tonic Sessions Lingon Berry\nDried orange slice\nThyme\nJuniper berries\nIce",
+      "recipe": "50 ml Purity Gin Craft Nordic Dry Organic Gin\n100 ml Scandinavian Tonic Sessions Lingon Berry\nDried orange slice\nThyme\nJuniper berries\nIce",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -244,7 +244,7 @@
     {
       "id": "26",
       "name": "Åre No6\nFrench 75",
-      "recipe": "40 ml Åre Bränneri Number 6 Dry Gin\n30 ml lemon juice\n30 ml sugar syrup\n60 ml sparkling dry wine (Chateau Wantz Cremant D'Alsace Carte Noire)",
+      "recipe": "40 ml Åre Bränneri No6 Scandinavian Gin\n30 ml lemon juice\n30 ml sugar syrup\n60 ml sparkling dry wine (Chateau Wantz Cremant D'Alsace Carte Noire)",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Canon EF 50 f/1.4 USM",
@@ -304,7 +304,7 @@
     {
       "id": "22",
       "name": "Hellström\nGin and Tonic",
-      "recipe": "50 ml Hellström Dry Gin\n100 ml Fever Tree Indian Tonic\nRosemary\nIce",
+      "recipe": "50 ml AB Hellström Dry Gin\n100 ml Fever Tree Indian Tonic\nRosemary\nIce",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -319,7 +319,7 @@
     {
       "id": "21",
       "name": "Hernö Pink BTL\nGin and Tonic",
-      "recipe": "60 ml Hernö Pink BTL Gin\n100 ml Hammars Pink Tonic Grapefruit & Hibiscus\nGrapefruit\nIce",
+      "recipe": "60 ml Hernö Pink BTL\n100 ml Hammars Pink Tonic Grapefruit & Hibiscus\nGrapefruit\nIce",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Canon EF 50 f/1.4 USM",
@@ -333,8 +333,8 @@
     },
     {
       "id": "20",
-      "name": "Lydén\nDry Martini",
-      "recipe": "75 ml Lydén Dry Gin\n10 ml Noilly Prat Dry Vermouth\nLemon zest",
+      "name": "Lydén Navy\nDry Martini",
+      "recipe": "75 ml Lydén Distillery Navy Gin\n10 ml Noilly Prat Dry Vermouth\nLemon zest",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Canon EF 50 f/1.4 USM",
@@ -364,7 +364,7 @@
     {
       "id": "18",
       "name": "Purity Organic\nCampari",
-      "recipe": "30 ml Purity Dry Organic Gin\n30 ml Campari Bitter\n30 ml Martini Rosso Vermouth\nDried orange slice\nIce",
+      "recipe": "30 ml Purity Gin Craft Nordic Dry Organic Gin\n30 ml Campari Bitter\n30 ml Martini Rosso Vermouth\nDried orange slice\nIce",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Samyang MF 35 F1.4 AS UMC",
@@ -379,7 +379,7 @@
     {
       "id": "17",
       "name": "Åre No6\nGin and Tonic",
-      "recipe": "60 ml Åre Bränneri Number 6 Dry Gin\n50 ml Ekobryggeriet Rhubarb Tonic\nMandarins\nDried orange slice\nIce",
+      "recipe": "60 ml Åre Bränneri No6 Scandinavian Gin\n50 ml Ekobryggeriet Rhubarb Tonic\nMandarins\nDried orange slice\nIce",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -409,7 +409,7 @@
     {
       "id": "15",
       "name": "Monkey 47\nDry Martini",
-      "recipe": "80 ml Monkey 47 Dry Gin\n15 ml Noilly Prat Dry Vermouth\nLemon zest",
+      "recipe": "80 ml Monkey 47 Schwarzwald Dry Gin\n15 ml Noilly Prat Dry Vermouth\nLemon zest",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -424,7 +424,7 @@
     {
       "id": "14",
       "name": "Hellström\nDry Martini",
-      "recipe": "75 ml Hellström Dry Gin\n7,5 ml Noilly Prat Dry Vermouth\nOlives",
+      "recipe": "75 ml AB Hellström Dry Gin\n7,5 ml Noilly Prat Dry Vermouth\nOlives",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Canon EF 50 f/1.4 USM",
@@ -454,7 +454,7 @@
     {
       "id": "12",
       "name": "Monkey 47\nGin Sour w. ginger",
-      "recipe": "60 ml Monkey 47 Gin\n25 ml freshly pressed lemon juice\n20 ml sugar syrup\nGinger\nEggwhite",
+      "recipe": "60 ml Monkey 47 Schwarzwald Dry Gin\n25 ml freshly pressed lemon juice\n20 ml sugar syrup\nGinger\nEggwhite",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -469,7 +469,7 @@
     {
       "id": "11",
       "name": "Hernö Pink BTL\nGin and Tonic",
-      "recipe": "50 ml Hernö Pink BTL Gin\n100 ml Luscombe Grapefruit Tonic\nLemon\n2 big ice cubes",
+      "recipe": "50 ml Hernö Pink BTL\n100 ml Luscombe Grapefruit Tonic\nLemon\n2 big ice cubes",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Samyang MF 135 T2.2 VDSLR ED UMC",
@@ -484,7 +484,7 @@
     {
       "id": "10",
       "name": "Purity Organic\nGin and Tonic",
-      "recipe": "60 ml Purity Dry Organic Gin\n100 ml Ekobryggeriet Spruce Shoots Tonic\nJuniper berries\nRosemary\nDried orange slice\nIce",
+      "recipe": "60 ml Purity Gin Craft Nordic Dry Organic Gin\n100 ml Ekobryggeriet Spruce Shoots Tonic\nJuniper berries\nRosemary\nDried orange slice\nIce",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Canon EF 50 f/1.4 USM",
@@ -499,7 +499,7 @@
     {
       "id": "9",
       "name": "Smoky\nEspresso Martini",
-      "recipe": "50 ml Smoky Gin\n50 ml Simple syrup\n50 ml Gallitelli Suprema Espresso",
+      "recipe": "50 ml Smoky Nordic Coastal Gin\n50 ml Simple syrup\n50 ml Gallitelli Suprema Espresso",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -529,7 +529,7 @@
     {
       "id": "7",
       "name": "Åre No6\nDirty Martini",
-      "recipe": "75 ml Åre Bränneri Number 6 Dry Gin\n15 ml Noilly Prat Dry Vermouth\n5 ml olive brine\nOlives",
+      "recipe": "75 ml Åre Bränneri No6 Scandinavian Gin\n15 ml Noilly Prat Dry Vermouth\n5 ml olive brine\nOlives",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Canon EF 50 f/1.4 USM",
@@ -544,7 +544,7 @@
     {
       "id": "6",
       "name": "Fräkne Tång\nGin Fizz",
-      "recipe": "60 ml Klocktornet Gin Fräkne Tång\n40 ml freshly pressed lemon juice\n30 ml simple syrup\nEgg white",
+      "recipe": "60 ml Fräkne Tång Gin\n40 ml freshly pressed lemon juice\n30 ml simple syrup\nEgg white",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -573,7 +573,7 @@
     {
       "id": "4",
       "name": "Purity Organic\nGin and Tonic",
-      "recipe": "50 ml Purity Dry Organic Gin\n20 ml Noilly Prat Dry Vermouth\nOlives",
+      "recipe": "50 ml Purity Gin Craft Nordic Dry Organic Gin\n20 ml Noilly Prat Dry Vermouth\nOlives",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Canon EF 50 f/1.4 USM",
@@ -588,7 +588,7 @@
     {
       "id": "3",
       "name": "Hellström\nGibson Martini",
-      "recipe": "75 ml Hellström Dry Gin\n15 ml Noilly Prat Dry Vermouth\nPearl onions",
+      "recipe": "75 ml AB Hellström Dry Gin\n15 ml Noilly Prat Dry Vermouth\nPearl onions",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -618,7 +618,7 @@
     {
       "id": "1",
       "name": "ND Mountain\nPerfect Martini",
-      "recipe": "75 ml Åre Bränneri Number 6 Dry Gin\n15 ml Noilly Prat Dry Vermouth\n15 ml Cinzano Martini Rosso\nOlives",
+      "recipe": "75 ml Norrbottens Destilleri Mountain Dry Gin\n15 ml Noilly Prat Dry Vermouth\n15 ml Cinzano Martini Rosso\nOlives",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
