@@ -13,7 +13,7 @@
       "shutter": "1/60",
       "aperture": "ƒ/1.8",
       "iso": "320",
-      "glassware": "Boda Nova Tumbler",
+      "glass": "Boda Nova Tumbler",
       "g01": "Orrefors Divine Champagne",
       "g02": "Orrefors More Coupe",
       "g03": "Orrefors Pulse",
@@ -28,7 +28,9 @@
       "g12": "Exxent Grappa"
     },
     "img": "047.jpg",
-    "uniqueColor": "#253744"
+    "uniqueColor": "#253744",
+    "gin": "Fräkne Tång Gin",
+    "tonic": "Ekobryggeriet Original Tonic"
   },
   {
     "id": "46",
@@ -44,7 +46,7 @@
       "shutter": "1/60",
       "aperture": "ƒ/5.6",
       "iso": "2000",
-      "glassware": "Riedel Nick & Nora",
+      "glass": "Riedel Nick & Nora",
       "g01": "Orrefors Divine Champagne",
       "g02": "Orrefors More Coupe",
       "g03": "Orrefors Pulse",
@@ -59,12 +61,14 @@
       "g12": "Exxent Grappa"
     },
     "img": "046.jpg",
-    "uniqueColor": "#111111"
+    "uniqueColor": "#111111",
+    "gin": "Tanqueray London Dry Gin",
+    "vermouth": "Noilly Prat"
   },
   {
     "id": "45",
     "name": "Lydén Navy\nDry Martini",
-    "recipe": "70 ml Lydén Distillery Navy Gin\n15 ml Marezzo Extra Dry Vermouth\nCornichons",
+    "recipe": "70 ml Lydén Distillery Navy Gin\n15 ml Marezzo Extra Dry\nCornichons",
     "tech": {
       "camera": "Sony A7 II",
       "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -75,7 +79,7 @@
       "shutter": "1/60",
       "aperture": "ƒ/1.8",
       "iso": "200",
-      "glassware": "Orrefors Street Martini",
+      "glass": "Orrefors Street Martini",
       "g01": "Orrefors Divine Champagne",
       "g02": "Orrefors More Coupe",
       "g03": "Orrefors Pulse",
@@ -90,12 +94,14 @@
       "g12": "Exxent Grappa"
     },
     "img": "045.jpg",
-    "uniqueColor": "#8b754b"
+    "uniqueColor": "#8b754b",
+    "gin": "Lydén Distillery Navy Gin",
+    "vermouth": "Marezzo Extra Dry"
   },
   {
     "id": "44",
     "name": "Purity Organic\nGin and Tonic",
-    "recipe": "50 ml Purity Dry Organic Gin\n100 ml Schweppes Pink Pepper Tonic\nLemon\nThyme\nIce",
+    "recipe": "50 ml Purity Gin Craft Nordic Dry Organic Gin\n100 ml Schweppes Pink Pepper Tonic\nLemon\nThyme\nIce",
     "tech": {
       "camera": "Sony A7 II",
       "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -106,7 +112,7 @@
       "shutter": "1/60",
       "aperture": "ƒ/1.8",
       "iso": "100",
-      "glassware": "Orrefors Street Highball",
+      "glass": "Orrefors Street Highball",
       "g01": "Orrefors Divine Champagne",
       "g02": "Orrefors More Coupe",
       "g03": "Orrefors Pulse",
@@ -121,12 +127,14 @@
       "g12": "Exxent Grappa"
     },
     "img": "044.jpg",
-    "uniqueColor": "#45583f"
+    "uniqueColor": "#45583f",
+    "gin": "Purity Gin Craft Nordic Dry Organic Gin",
+    "tonic": "Schweppes Pink Pepper Tonic"
   },
   {
     "id": "43",
     "name": "Hernö Old Tom\nDry Martini",
-    "recipe": "75 ml Hernö Old Tom Dry Gin\n15 ml Noilly Prat Dry Vermouth\n2 dashes lime juice\nLime zest",
+    "recipe": "75 ml Hernö Old Tom Gin\n15 ml Noilly Prat Dry Vermouth\n2 dashes lime juice\nLime zest",
     "tech": {
       "camera": "Sony A7 II",
       "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -137,7 +145,7 @@
       "shutter": "1/15",
       "aperture": "ƒ/1.8",
       "iso": "100",
-      "glassware": "Iittala Essence Cocktail Bowl",
+      "glass": "Iittala Essence Cocktail Bowl",
       "g01": "Orrefors Divine Champagne",
       "g02": "Orrefors More Coupe",
       "g03": "Orrefors Pulse",
@@ -152,6 +160,8 @@
       "g12": "Exxent Grappa"
     },
     "img": "043.jpg",
-    "uniqueColor": "#6a8e04"
+    "uniqueColor": "#6a8e04",
+    "gin": "Hernö Old Tom Gin",
+    "vermouth": "Noilly Prat"
   }
 ]

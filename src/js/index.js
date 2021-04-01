@@ -1,5 +1,74 @@
 const IMG_BASE_URL = 'img/'
 
+let arrayLength = 0
+let drinks = []
+let count = 0
+
+const fetchData = async () => {
+  const response = await fetch('json/drinks.json')
+  const data = await response.json()
+
+  // // Filtering
+  // const newData = data.drinks.filter(e => {
+  //   return e.searchTermTonic === 'Ekobryggeriet Spruce Shoots Tonic'
+  // })
+  // arrayLength = newData.length
+  // const addedArray = newData.slice(count, count + 3)
+
+  arrayLength = data.drinks.length
+  const addedArray = data.drinks.slice(count, count + 3)
+
+  drinks = addedArray
+
+  count += 3
+
+  const drinkWrapper = document.querySelector('.drinkWrapper')
+  drinkWrapper.append(makeDrinkRow(drinks))
+
+  const cardsLength = document.getElementsByClassName('drinkCard').length
+
+  if (cardsLength >= arrayLength) document.querySelector('.loadMore').remove()
+}
+
+// More loading
+const fetchMoreData = () => {
+  const btn = document.querySelector('.loadMore')
+  btn.remove()
+  fetchData()
+}
+
+const fetchAndCreateFilters = async () => {
+  const response = await fetch('json/drinks.json')
+  const data = await response.json()
+
+  const gins = {}
+  const tonics = {}
+  const vermouthes = {}
+  const sweetVermouthes = {}
+  const glasses = {}
+  const lenses = {}
+
+  data.drinks.forEach(drink => {
+    const searchTerms = [
+      { name: drink.gin, list: gins },
+      { name: drink.tonic, list: tonics },
+      { name: drink.vermouth, list: vermouthes },
+      { name: drink.sweetVermouth, list: sweetVermouthes },
+      { name: drink.tech.glass, list: glasses },
+      { name: drink.tech.lens, list: lenses },
+    ]
+
+    searchTerms.forEach(item => {
+      if (item.name) {
+        if (item.list[item.name]) item.list[item.name]++
+        else item.list[item.name] = 1
+      }
+    })
+  })
+
+  return { gins, tonics, vermouthes, sweetVermouthes, glasses, lenses }
+}
+
 window.onload = () => {
   const observedHero = document.getElementById('home')
   const navbar = document.getElementById('navbar')
@@ -93,12 +162,12 @@ const createRecipe = (name, recipe) => {
 }
 
 const createTech = tech => {
-  const { camera, lens, shutter, aperture, iso, glassware } = tech
+  const { camera, lens, shutter, aperture, iso, glass } = tech
 
   const wrapper = crEl('div')
   const techDiv = crEl('div')
   const techDivContent = crTxtNd(
-    `Camera: ${camera}\nLens: ${lens}\nShutter speed: ${shutter}\nAperture: ${aperture}\nISO: ${iso}\n\nGlassware: ${glassware}`
+    `Camera: ${camera}\nLens: ${lens}\nShutter speed: ${shutter}\nAperture: ${aperture}\nISO: ${iso}\n\nGlassware: ${glass}`
   )
 
   techDiv.append(techDivContent)
@@ -251,38 +320,7 @@ const makeDrinkRow = drinks => {
   return row
 }
 
-let arrayLength = 0
-let drinks = []
-let count = 0
-
-const fetchData = async () => {
-  const response = await fetch('json/drinks.json')
-  const data = await response.json()
-  arrayLength = data.drinks.length
-
-  const addedArray = data.drinks.slice(count, count + 3)
-  drinks = addedArray
-
-  count += 3
-
-  const drinkWrapper = document.querySelector('.drinkWrapper')
-  drinkWrapper.append(makeDrinkRow(drinks))
-
-  const cardsLength = document.getElementsByClassName('drinkCard').length
-
-  if (cardsLength >= arrayLength) document.querySelector('.loadMore').remove()
-}
-
-fetchData()
-
-const fetchMoreData = () => {
-  const btn = document.querySelector('.loadMore')
-  btn.remove()
-  fetchData()
-}
-
 // Print copyright
-
 document.querySelector(
   '.copyright'
 ).innerText = `© ${new Date().getFullYear()} Joacim Thenander. All rights reserved`
@@ -315,3 +353,7 @@ window.onresize = () => {
     hamBtn.classList.remove('hamburgerMenuOpen')
   }
 }
+
+// Initial load
+fetchData()
+console.log(await fetchAndCreateFilters())

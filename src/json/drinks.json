@@ -10,10 +10,12 @@
         "shutter": "1/30",
         "aperture": "ƒ/1.8",
         "iso": "100",
-        "glassware": "Riedel Nick & Nora"
+        "glass": "Riedel Nick & Nora"
       },
       "img": "042.jpg",
-      "uniqueColor": "#9e8a4c"
+      "uniqueColor": "#9e8a4c",
+      "gin": "AB Hellström Dry Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "41",
@@ -25,10 +27,12 @@
         "shutter": "1/40",
         "aperture": "ƒ/1.8",
         "iso": "100",
-        "glassware": "Riedel Nick & Nora"
+        "glass": "Riedel Nick & Nora"
       },
       "img": "041.jpg",
-      "uniqueColor": "#bd9b42"
+      "uniqueColor": "#bd9b42",
+      "gin": "Gibson's Exception London Dry Gin",
+      "vermouth": "Noilly Prat"
     },
 
     {
@@ -41,10 +45,12 @@
         "shutter": "1/60",
         "aperture": "ƒ/1.8",
         "iso": "500",
-        "glassware": "Iittala Essence Cocktail Bowl"
+        "glass": "Iittala Essence Cocktail Bowl"
       },
       "img": "040.jpg",
-      "uniqueColor": "#1c4000"
+      "uniqueColor": "#1c4000",
+      "gin": "Norrbottens Destilleri Forest Dry Gin",
+      "tonic": "Ekobryggeriet Spruce Shoots Tonic"
     },
     {
       "id": "39",
@@ -56,10 +62,11 @@
         "shutter": "1/100",
         "aperture": "ƒ/1.4",
         "iso": "200",
-        "glassware": "Orrefors More Coupe"
+        "glass": "Orrefors More Coupe"
       },
       "img": "039.jpg",
-      "uniqueColor": "#685a02"
+      "uniqueColor": "#685a02",
+      "gin": "Tanqueray London Dry Gin"
     },
     {
       "id": "38",
@@ -71,10 +78,12 @@
         "shutter": "1/60",
         "aperture": "ƒ/1.8",
         "iso": "320",
-        "glassware": "Schott Zwiesel Gin Tonic"
+        "glass": "Schott Zwiesel Gin Tonic"
       },
       "img": "038.jpg",
-      "uniqueColor": "#474c50"
+      "uniqueColor": "#474c50",
+      "gin": "Åre Bränneri Local's Edition Scandinavian Gin",
+      "tonic": "Ekobryggeriet Spruce Shoots Tonic"
     },
     {
       "id": "37",
@@ -86,10 +95,12 @@
         "shutter": "0,6 sec",
         "aperture": "ƒ/1.8",
         "iso": "100",
-        "glassware": "Riedel Nick & Nora"
+        "glass": "Riedel Nick & Nora"
       },
       "img": "037.jpg",
-      "uniqueColor": "#7d5653"
+      "uniqueColor": "#7d5653",
+      "gin": "Hernö Pink BTL",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "36",
@@ -101,25 +112,29 @@
         "shutter": "1/60",
         "aperture": "ƒ/1.4",
         "iso": "2000",
-        "glassware": "Orrefors More Coupe"
+        "glass": "Orrefors More Coupe"
       },
       "img": "036.jpg",
-      "uniqueColor": "#2d432c"
+      "uniqueColor": "#2d432c",
+      "gin": "Plymouth Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "35",
       "name": "Lydén Navy\nNegroni",
-      "recipe": "30 ml Lydén Distillery Navy Gin\n30 ml Martini Rosso Vermouth\n30 ml Campari\nDried orange slice\nIce",
+      "recipe": "30 ml Lydén Distillery Navy Gin\n30 ml Martini Rosso\n30 ml Campari\nDried orange slice\nIce",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Canon EF 50 f/1.4 USM",
         "shutter": "1/25",
         "aperture": "ƒ/1.7",
         "iso": "100",
-        "glassware": "Unknown"
+        "glass": "Unknown"
       },
       "img": "035.jpg",
-      "uniqueColor": "#565457"
+      "uniqueColor": "#565457",
+      "gin": "Lydén Distillery Navy Gin",
+      "sweetVermouth": "Martini Rosso"
     },
     {
       "id": "34",
@@ -131,25 +146,29 @@
         "shutter": "1/60",
         "aperture": "ƒ/1.8",
         "iso": "640",
-        "glassware": "Orrefors Divine Champagne"
+        "glass": "Orrefors Divine Champagne"
       },
       "img": "034.jpg",
-      "uniqueColor": "#41493c"
+      "uniqueColor": "#41493c",
+      "gin": "Gibson's Exception London Dry Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "33",
       "name": "Biostilla\nDry Martini",
-      "recipe": "75 ml Biostilla Organic Gin\n15 ml Marezzo Extra Dry Vermouth\nOlives",
+      "recipe": "75 ml Biostilla Organic Gin\n15 ml Marezzo Extra Dry\nOlives",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Canon EF 50 f/1.4 USM",
         "shutter": "1/60",
         "aperture": "ƒ/1.4",
         "iso": "320",
-        "glassware": "Orrefors Street Martini"
+        "glass": "Orrefors Street Martini"
       },
       "img": "033.jpg",
-      "uniqueColor": "#7a6b28"
+      "uniqueColor": "#7a6b28",
+      "gin": "Biostilla Organic Gin",
+      "vermouth": "Marezzo Extra Dry"
     },
     {
       "id": "32",
@@ -161,10 +180,11 @@
         "shutter": "1/60",
         "aperture": "ƒ/1.8",
         "iso": "800",
-        "glassware": "Exxent Grappa"
+        "glass": "Exxent Grappa"
       },
       "img": "032.jpg",
-      "uniqueColor": "#4f3927"
+      "uniqueColor": "#4f3927",
+      "gin": "Smoky Nordic Coastal Gin"
     },
     {
       "id": "31",
@@ -176,10 +196,12 @@
         "shutter": "1/15",
         "aperture": "ƒ/2.8",
         "iso": "100",
-        "glassware": "Orrefors Pulse"
+        "glass": "Orrefors Pulse"
       },
       "img": "031.jpg",
-      "uniqueColor": "#398804"
+      "uniqueColor": "#398804",
+      "gin": "Hernö Old Tom Gin",
+      "tonic": "Hammars Lemongrass & Mint Tonic"
     },
     {
       "id": "30",
@@ -191,10 +213,12 @@
         "shutter": "1/60",
         "aperture": "ƒ/1.8",
         "iso": "250",
-        "glassware": "Iittala Essence Tumbler"
+        "glass": "Iittala Essence Tumbler"
       },
       "img": "030.jpg",
-      "uniqueColor": "#7b6341"
+      "uniqueColor": "#7b6341",
+      "gin": "Purity Gin Craft Nordic Dry Organic Gin",
+      "tonic": "Scandinavian Tonic Sessions Lingon Berry"
     },
     {
       "id": "29",
@@ -206,40 +230,45 @@
         "shutter": "1/8000",
         "aperture": "ƒ/1.4",
         "iso": "800",
-        "glassware": "Orrefors Street Martini"
+        "glass": "Orrefors Street Martini"
       },
       "img": "029.jpg",
-      "uniqueColor": "#636162"
+      "uniqueColor": "#636162",
+      "gin": "Water"
     },
     {
       "id": "28",
       "name": "Tanqueray\nDry Martini",
-      "recipe": "75 ml Tanqueray London Dry Gin\n10 ml Marezzo Extra Dry Vermouth\nLemon zest",
+      "recipe": "75 ml Tanqueray London Dry Gin\n10 ml Marezzo Extra Dry\nLemon zest",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
         "shutter": "1/80",
         "aperture": "ƒ/1.8",
         "iso": "200",
-        "glassware": "Orrefors More Coupe"
+        "glass": "Orrefors More Coupe"
       },
       "img": "028.jpg",
-      "uniqueColor": "#111111"
+      "uniqueColor": "#111111",
+      "gin": "Tanqueray London Dry Gin",
+      "vermouth": "Marezzo Extra Dry"
     },
     {
       "id": "27",
       "name": "Lydén Navy\nDry Martini",
-      "recipe": "70 ml Lydén Distillery Navy Gin\n15 ml Marezzo Extra Dry Vermouth\nCornichons",
+      "recipe": "70 ml Lydén Distillery Navy Gin\n15 ml Marezzo Extra Dry\nCornichons",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
         "shutter": "1/60",
         "aperture": "ƒ/1.8",
         "iso": "250",
-        "glassware": "Orrefors Street Martini"
+        "glass": "Orrefors Street Martini"
       },
       "img": "027.jpg",
-      "uniqueColor": "#477203"
+      "uniqueColor": "#477203",
+      "gin": "Lydén Distillery Navy Gin",
+      "vermouth": "Marezzo Extra Dry"
     },
     {
       "id": "26",
@@ -251,10 +280,11 @@
         "shutter": "0,5 sec",
         "aperture": "ƒ/1.4",
         "iso": "100",
-        "glassware": "Orrefors Divine Champagne"
+        "glass": "Orrefors Divine Champagne"
       },
       "img": "026.jpg",
-      "uniqueColor": "#2670f2"
+      "uniqueColor": "#2670f2",
+      "gin": "Åre Bränneri No6 Scandinavian Gin"
     },
     {
       "id": "25",
@@ -266,10 +296,12 @@
         "shutter": "1/80",
         "aperture": "ƒ/1.8",
         "iso": "200",
-        "glassware": "Riedel Nick & Nora"
+        "glass": "Riedel Nick & Nora"
       },
       "img": "025.jpg",
-      "uniqueColor": "#412208"
+      "uniqueColor": "#412208",
+      "gin": "Smoky Nordic Coastal Gin",
+      "vermouth": "Marezzo Extra Dry"
     },
     {
       "id": "24",
@@ -281,10 +313,12 @@
         "shutter": "1/60",
         "aperture": "ƒ/2.8",
         "iso": "250",
-        "glassware": "Iittala Essence Cocktail Bowl"
+        "glass": "Iittala Essence Cocktail Bowl"
       },
       "img": "024.jpg",
-      "uniqueColor": "#639a01"
+      "uniqueColor": "#639a01",
+      "gin": "Biostilla Organic Gin",
+      "tonic": "Ekobryggeriet Spruce Shoots Tonic"
     },
     {
       "id": "23",
@@ -296,10 +330,12 @@
         "shutter": "1/20",
         "aperture": "ƒ/2.8",
         "iso": "100",
-        "glassware": "Orrefors Street Martini"
+        "glass": "Orrefors Street Martini"
       },
       "img": "023.jpg",
-      "uniqueColor": "#4b8095"
+      "uniqueColor": "#4b8095",
+      "gin": "Norrbottens Destilleri Mountain Dry Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "22",
@@ -311,10 +347,12 @@
         "shutter": "1/60",
         "aperture": "ƒ/1.8",
         "iso": "500",
-        "glassware": "Iittala Essence Cocktail Bowl"
+        "glass": "Iittala Essence Cocktail Bowl"
       },
       "img": "022.jpg",
-      "uniqueColor": "#414e3d"
+      "uniqueColor": "#414e3d",
+      "gin": "AB Hellström Dry Gin",
+      "tonic": "Fever Tree Indian Tonic"
     },
     {
       "id": "21",
@@ -326,10 +364,12 @@
         "shutter": "1/80",
         "aperture": "ƒ/1.7",
         "iso": "200",
-        "glassware": "Unknown"
+        "glass": "Unknown"
       },
       "img": "021.jpg",
-      "uniqueColor": "#d87170"
+      "uniqueColor": "#d87170",
+      "gin": "Hernö Pink BTL",
+      "tonic": "Hammars Pink Tonic Grapefruit & Hibiscus"
     },
     {
       "id": "20",
@@ -341,10 +381,12 @@
         "shutter": "1/160",
         "aperture": "ƒ/1.4",
         "iso": "200",
-        "glassware": "Riedel Nick & Nora"
+        "glass": "Riedel Nick & Nora"
       },
       "img": "020.jpg",
-      "uniqueColor": "#a39a03"
+      "uniqueColor": "#a39a03",
+      "gin": "Lydén Distillery Navy Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "19",
@@ -356,25 +398,29 @@
         "shutter": "0,5 sec",
         "aperture": "ƒ/1.8",
         "iso": "100",
-        "glassware": "Orrefors More Coupe"
+        "glass": "Orrefors More Coupe"
       },
       "img": "019.jpg",
-      "uniqueColor": "#554a34"
+      "uniqueColor": "#554a34",
+      "gin": "Smoky Nordic Coastal Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "18",
       "name": "Purity Organic\nCampari",
-      "recipe": "30 ml Purity Gin Craft Nordic Dry Organic Gin\n30 ml Campari Bitter\n30 ml Martini Rosso Vermouth\nDried orange slice\nIce",
+      "recipe": "30 ml Purity Gin Craft Nordic Dry Organic Gin\n30 ml Campari Bitter\n30 ml Martini Rosso\nDried orange slice\nIce",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Samyang MF 35 F1.4 AS UMC",
         "shutter": "1/2000",
         "aperture": "ƒ/1.4",
         "iso": "1600",
-        "glassware": "Boda Nova Tumbler"
+        "glass": "Boda Nova Tumbler"
       },
       "img": "018.jpg",
-      "uniqueColor": "#222420"
+      "uniqueColor": "#222420",
+      "gin": "Purity Gin Craft Nordic Dry Organic Gin",
+      "sweetVermouth": "Martini Rosso"
     },
     {
       "id": "17",
@@ -386,10 +432,12 @@
         "shutter": "1/60",
         "aperture": "ƒ/1.8",
         "iso": "500",
-        "glassware": "Schott Zwiesel Gin Tonic"
+        "glass": "Schott Zwiesel Gin Tonic"
       },
       "img": "017.jpg",
-      "uniqueColor": "#4f535b"
+      "uniqueColor": "#4f535b",
+      "gin": "Åre Bränneri No6 Scandinavian Gin",
+      "tonic": "Ekobryggeriet Rhubarb Tonic"
     },
     {
       "id": "16",
@@ -401,10 +449,12 @@
         "shutter": "1/20",
         "aperture": "ƒ/2.8",
         "iso": "100",
-        "glassware": "Orrefors Street Martini"
+        "glass": "Orrefors Street Martini"
       },
       "img": "016.jpg",
-      "uniqueColor": "#9b0702"
+      "uniqueColor": "#9b0702",
+      "gin": "Norrbottens Destilleri Mountain Dry Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "15",
@@ -416,10 +466,12 @@
         "shutter": "1/60",
         "aperture": "ƒ/1.8",
         "iso": "400",
-        "glassware": "Orrefors More Coupe"
+        "glass": "Orrefors More Coupe"
       },
       "img": "015.jpg",
-      "uniqueColor": "#2b2b2a"
+      "uniqueColor": "#2b2b2a",
+      "gin": "Monkey 47 Schwarzwald Dry Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "14",
@@ -431,10 +483,12 @@
         "shutter": "1/160",
         "aperture": "ƒ/1.4",
         "iso": "200",
-        "glassware": "Orrefors More Coupe"
+        "glass": "Orrefors More Coupe"
       },
       "img": "014.jpg",
-      "uniqueColor": "#ab983b"
+      "uniqueColor": "#ab983b",
+      "gin": "AB Hellström Dry Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "13",
@@ -446,10 +500,12 @@
         "shutter": "1/60",
         "aperture": "ƒ/1.8",
         "iso": "320",
-        "glassware": "Unknown"
+        "glass": "Unknown"
       },
       "img": "013.jpg",
-      "uniqueColor": "#806f7b"
+      "uniqueColor": "#806f7b",
+      "gin": "Lydén Distillery Navy Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "12",
@@ -461,10 +517,11 @@
         "shutter": "1/30",
         "aperture": "ƒ/1.8",
         "iso": "100",
-        "glassware": "Orrefors Divine Champagne"
+        "glass": "Orrefors Divine Champagne"
       },
       "img": "012.jpg",
-      "uniqueColor": "#49372a"
+      "uniqueColor": "#49372a",
+      "gin": "Monkey 47 Schwarzwald Dry Gin"
     },
     {
       "id": "11",
@@ -476,10 +533,12 @@
         "shutter": "1/40",
         "aperture": "ƒ/2",
         "iso": "100",
-        "glassware": "Schott Zwiesel Gin Tonic"
+        "glass": "Schott Zwiesel Gin Tonic"
       },
       "img": "011.jpg",
-      "uniqueColor": "#cb8487"
+      "uniqueColor": "#cb8487",
+      "gin": "Hernö Pink BTL",
+      "tonic": "Luscombe Grapefruit Tonic"
     },
     {
       "id": "10",
@@ -491,10 +550,12 @@
         "shutter": "1/80",
         "aperture": "ƒ/1,4",
         "iso": "200",
-        "glassware": "Orrefors Street Highball"
+        "glass": "Orrefors Street Highball"
       },
       "img": "010.jpg",
-      "uniqueColor": "#312c29"
+      "uniqueColor": "#312c29",
+      "gin": "Purity Gin Craft Nordic Dry Organic Gin",
+      "tonic": "Ekobryggeriet Spruce Shoots Tonic"
     },
     {
       "id": "9",
@@ -506,10 +567,11 @@
         "shutter": "1/60",
         "aperture": "ƒ/1,8",
         "iso": "400",
-        "glassware": "Orrefors More Coupe"
+        "glass": "Orrefors More Coupe"
       },
       "img": "009.jpg",
-      "uniqueColor": "#793f32"
+      "uniqueColor": "#793f32",
+      "gin": "Smoky Nordic Coastal Gin"
     },
     {
       "id": "8",
@@ -521,10 +583,12 @@
         "shutter": "1/60",
         "aperture": "ƒ/1,8",
         "iso": "1600",
-        "glassware": "Schott Zwiesel Gin Tonic"
+        "glass": "Schott Zwiesel Gin Tonic"
       },
       "img": "008.jpg",
-      "uniqueColor": "#59606e"
+      "uniqueColor": "#59606e",
+      "gin": "Norrbottens Destilleri Mountain Dry Gin",
+      "tonic": "Fever Tree Mediterranean Tonic"
     },
     {
       "id": "7",
@@ -536,10 +600,12 @@
         "shutter": "1/25",
         "aperture": "ƒ/1,7",
         "iso": "100",
-        "glassware": "Iittala Essence Cocktail Bowl"
+        "glass": "Iittala Essence Cocktail Bowl"
       },
       "img": "007.jpg",
-      "uniqueColor": "#7d7e7b"
+      "uniqueColor": "#7d7e7b",
+      "gin": "Åre Bränneri No6 Scandinavian Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "6",
@@ -551,10 +617,11 @@
         "shutter": "1/60",
         "aperture": "ƒ/1,8",
         "iso": "250",
-        "glassware": "Orrefors More Coupe"
+        "glass": "Orrefors More Coupe"
       },
       "img": "006.jpg",
-      "uniqueColor": "#90914f"
+      "uniqueColor": "#90914f",
+      "gin": "Fräkne Tång Gin"
     },
     {
       "id": "5",
@@ -568,11 +635,13 @@
         "iso": "200"
       },
       "img": "005.jpg",
-      "uniqueColor": "#c29601"
+      "uniqueColor": "#c29601",
+      "gin": "Norrbottens Destilleri Forest Dry Gin",
+      "tonic": "Ekobryggeriet Spruce Shoots Tonic"
     },
     {
       "id": "4",
-      "name": "Purity Organic\nGin and Tonic",
+      "name": "Purity Organic\nDry Martini",
       "recipe": "50 ml Purity Gin Craft Nordic Dry Organic Gin\n20 ml Noilly Prat Dry Vermouth\nOlives",
       "tech": {
         "camera": "Sony A7 II",
@@ -580,10 +649,12 @@
         "shutter": "0.4 sec",
         "aperture": "ƒ/1,7",
         "iso": "100",
-        "glassware": "Riedel Nick & Nora"
+        "glass": "Riedel Nick & Nora"
       },
       "img": "004.jpg",
-      "uniqueColor": "#735f3d"
+      "uniqueColor": "#735f3d",
+      "gin": "Purity Gin Craft Nordic Dry Organic Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "3",
@@ -595,40 +666,47 @@
         "shutter": "1/100",
         "aperture": "ƒ/1,8",
         "iso": "100",
-        "glassware": "Orrefors Street Martini"
+        "glass": "Orrefors Street Martini"
       },
       "img": "003.jpg",
-      "uniqueColor": "#97573d"
+      "uniqueColor": "#97573d",
+      "gin": "AB Hellström Dry Gin",
+      "vermouth": "Noilly Prat"
     },
     {
       "id": "2",
       "name": "Lydén Navy\nNegroni",
-      "recipe": "25 ml Lydén Distillery Navy Gin\n25 ml Martini Rosso Vermouth\n25 ml Campari\n2 big ice cubes",
+      "recipe": "25 ml Lydén Distillery Navy Gin\n25 ml Martini Rosso\n25 ml Campari\n2 big ice cubes",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Canon EF 50 f/1.4 USM",
         "shutter": "1/25",
         "aperture": "ƒ/1,7",
         "iso": "100",
-        "glassware": "Boda Nova Tumbler"
+        "glass": "Boda Nova Tumbler"
       },
       "img": "002.jpg",
-      "uniqueColor": "#696969"
+      "uniqueColor": "#696969",
+      "gin": "Lydén Distillery Navy Gin",
+      "sweetVermouth": "Martini Rosso"
     },
     {
       "id": "1",
       "name": "ND Mountain\nPerfect Martini",
-      "recipe": "75 ml Norrbottens Destilleri Mountain Dry Gin\n15 ml Noilly Prat Dry Vermouth\n15 ml Cinzano Martini Rosso\nOlives",
+      "recipe": "75 ml Norrbottens Destilleri Mountain Dry Gin\n15 ml Noilly Prat Dry Vermouth\n15 ml Martini Rosso\nOlives",
       "tech": {
         "camera": "Sony A7 II",
         "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
         "shutter": "1/60",
         "aperture": "ƒ/1,8",
         "iso": "800",
-        "glassware": "Orrefors More Coupe"
+        "glass": "Orrefors More Coupe"
       },
       "img": "001.jpg",
-      "uniqueColor": "#587d83"
+      "uniqueColor": "#587d83",
+      "gin": "Norrbottens Destilleri Mountain Dry Gin",
+      "vermouth": "Noilly Prat",
+      "sweetVermouth": "Martini Rosso"
     }
   ]
 }
