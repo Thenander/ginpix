@@ -356,4 +356,3 @@ window.onresize = () => {
 
 // Initial load
 fetchData()
-console.log(await fetchAndCreateFilters())
