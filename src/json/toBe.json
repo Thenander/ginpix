@@ -153,36 +153,5 @@
     },
     "img": "043.jpg",
     "uniqueColor": "#6a8e04"
-  },
-  {
-    "id": "42",
-    "name": "Hellström\nGibson Martini",
-    "recipe": "60 ml Hellström Dry Gin\n10 ml Noilly Prat Dry Vermouth\nPearl onions",
-    "tech": {
-      "camera": "Sony A7 II",
-      "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
-      "l1": "Canon EF 50 f/1.4 USM",
-      "l2": "Samyang MF 35 F1.4 AS UMC",
-      "l3": "Samyang MF 135 T2.2 VDSLR ED UMC",
-      "l4": "Sony FE 55 f/1.8 ZA Sonnar T*",
-      "shutter": "1/30",
-      "aperture": "ƒ/1.8",
-      "iso": "100",
-      "glassware": "Riedel Nick & Nora",
-      "g01": "Orrefors Divine Champagne",
-      "g02": "Orrefors More Coupe",
-      "g03": "Orrefors Pulse",
-      "g04": "Orrefors Street Highball",
-      "g05": "Orrefors Street Martini",
-      "g06": "Kosta Boda Line",
-      "g07": "Iittala Essence Cocktail Bowl",
-      "g08": "Iittala Essence Tumbler",
-      "g09": "Riedel Nick & Nora",
-      "g10": "Schott Zwiesel Gin Tonic",
-      "g11": "Boda Nova Tumbler",
-      "g12": "Exxent Grappa"
-    },
-    "img": "042.jpg",
-    "uniqueColor": "#9e8a4c"
   }
 ]

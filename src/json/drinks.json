@@ -1,6 +1,21 @@
 {
   "drinks": [
     {
+      "id": "42",
+      "name": "Hellström\nGibson Martini",
+      "recipe": "60 ml Hellström Dry Gin\n10 ml Noilly Prat Dry Vermouth\nPearl onions",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
+        "shutter": "1/30",
+        "aperture": "ƒ/1.8",
+        "iso": "100",
+        "glassware": "Riedel Nick & Nora"
+      },
+      "img": "042.jpg",
+      "uniqueColor": "#9e8a4c"
+    },
+    {
       "id": "41",
       "name": "Gibson Exception\nDirty Martini",
       "recipe": "60 ml Gibson Exception London Dry Gin\n7.5 ml Noilly Prat Dry Vermouth\n5 ml olive brine\nOlives",
