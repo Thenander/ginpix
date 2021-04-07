@@ -97,38 +97,5 @@
     "uniqueColor": "#8b754b",
     "gin": "Lydén Distillery Navy Gin",
     "vermouth": "Marezzo Extra Dry"
-  },
-  {
-    "id": "44",
-    "name": "Purity Organic\nGin and Tonic",
-    "recipe": "50 ml Purity Gin Craft Nordic Dry Organic Gin\n100 ml Schweppes Pink Pepper Tonic\nLemon\nThyme\nIce",
-    "tech": {
-      "camera": "Sony A7 II",
-      "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
-      "l1": "Canon EF 50 f/1.4 USM",
-      "l2": "Samyang MF 35 F1.4 AS UMC",
-      "l3": "Samyang MF 135 T2.2 VDSLR ED UMC",
-      "l4": "Sony FE 55 f/1.8 ZA Sonnar T*",
-      "shutter": "1/60",
-      "aperture": "ƒ/1.8",
-      "iso": "100",
-      "glass": "Orrefors Street Highball",
-      "g01": "Orrefors Divine Champagne",
-      "g02": "Orrefors More Coupe",
-      "g03": "Orrefors Pulse",
-      "g04": "Orrefors Street Highball",
-      "g05": "Orrefors Street Martini",
-      "g06": "Kosta Boda Line",
-      "g07": "Iittala Essence Cocktail Bowl",
-      "g08": "Iittala Essence Tumbler",
-      "g09": "Riedel Nick & Nora",
-      "g10": "Schott Zwiesel Gin Tonic",
-      "g11": "Boda Nova Tumbler",
-      "g12": "Exxent Grappa"
-    },
-    "img": "044.jpg",
-    "uniqueColor": "#45583f",
-    "gin": "Purity Gin Craft Nordic Dry Organic Gin",
-    "tonic": "Schweppes Pink Pepper Tonic"
   }
 ]

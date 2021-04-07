@@ -1,6 +1,23 @@
 {
   "drinks": [
     {
+      "id": "44",
+      "name": "Purity Organic\nGin and Tonic",
+      "recipe": "50 ml Purity Gin Craft Nordic Dry Organic Gin\n100 ml Schweppes Pink Pepper Tonic\nLemon\nThyme\nIce",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
+        "shutter": "1/60",
+        "aperture": "ƒ/1.8",
+        "iso": "100",
+        "glass": "Orrefors Street Highball"
+      },
+      "img": "044.jpg",
+      "uniqueColor": "#45583f",
+      "gin": "Purity Gin Craft Nordic Dry Organic Gin",
+      "tonic": "Schweppes Pink Pepper Tonic"
+    },
+    {
       "id": "43",
       "name": "Hernö Old Tom\nDry Martini",
       "recipe": "75 ml Hernö Old Tom Gin\n15 ml Noilly Prat Dry Vermouth\n2 dashes lime juice\nLime zest",
