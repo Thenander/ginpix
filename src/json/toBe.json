@@ -1,8 +1,45 @@
 [
   {
-    "id": "47",
+    "id": "50",
+    "name": "Everything\nGibson Dry Martini",
+    "recipe": "75 ml Gibson's Exception London Dry Gin / Tanqueray London Dry Gin / Hernö Pink BTL\n7.5 ml Noilly Prat\nOlives\nPearl onions",
+    "tech": {
+      "camera": "Sony A7 II",
+      "lens": "Samyang MF 35 F1.4 AS UMC",
+      "l1": "Canon EF 50 f/1.4 USM",
+      "l2": "Samyang MF 35 F1.4 AS UMC",
+      "l3": "Samyang MF 135 T2.2 VDSLR ED UMC",
+      "l4": "Sony FE 55 f/1.8 ZA Sonnar T*",
+      "shutter": "1/125",
+      "aperture": "ƒ/1.4",
+      "iso": "100",
+      "glass": "Orrefors More Coupe",
+      "g01": "Orrefors Divine Champagne",
+      "g02": "Orrefors More Coupe",
+      "g03": "Orrefors Pulse",
+      "g04": "Orrefors Street Highball",
+      "g05": "Orrefors Street Martini",
+      "g06": "Kosta Boda Line",
+      "g07": "Iittala Essence Cocktail Bowl",
+      "g08": "Iittala Essence Tumbler",
+      "g09": "Riedel Nick & Nora",
+      "g10": "Schott Zwiesel Gin Tonic",
+      "g11": "Boda Nova Tumbler",
+      "g12": "Exxent Grappa"
+    },
+    "img": "050.jpg",
+    "uniqueColor": "#805c4b",
+    "gin": [
+      "Gibson's Exception London Dry Gin",
+      "Tanqueray London Dry Gin",
+      "Hernö Pink BTL"
+    ],
+    "vermouth": "Noilly Prat"
+  },
+  {
+    "id": "49",
     "name": "Fräkne Tång\nGin and Tonic",
-    "recipe": "50 ml Klocktornet Fräkne Tång\n100 ml Ekobryggeriet Original Tonic\nLemon\nIce",
+    "recipe": "50 ml Fräkne Tång Gin\n100 ml Ekobryggeriet Original Tonic\nLemon\nIce",
     "tech": {
       "camera": "Sony A7 II",
       "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
@@ -27,26 +64,26 @@
       "g11": "Boda Nova Tumbler",
       "g12": "Exxent Grappa"
     },
-    "img": "047.jpg",
+    "img": "049.jpg",
     "uniqueColor": "#253744",
     "gin": "Fräkne Tång Gin",
     "tonic": "Ekobryggeriet Original Tonic"
   },
   {
-    "id": "46",
-    "name": "Tanqueray\nDry Martini",
-    "recipe": "60 ml Tanqueray London Dry Gin\n15 ml Noilly Prat Dry Vermouth\nOlives",
+    "id": "48",
+    "name": "Plymouth\nLemon Dry Martini",
+    "recipe": "60 ml Plymouth Gin\n15 ml Noilly Prat\n2 dashes of lemon juice\nLemon zest",
     "tech": {
       "camera": "Sony A7 II",
-      "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
+      "lens": "Canon EF 50 f/1.4 USM",
       "l1": "Canon EF 50 f/1.4 USM",
       "l2": "Samyang MF 35 F1.4 AS UMC",
       "l3": "Samyang MF 135 T2.2 VDSLR ED UMC",
       "l4": "Sony FE 55 f/1.8 ZA Sonnar T*",
       "shutter": "1/60",
-      "aperture": "ƒ/5.6",
-      "iso": "2000",
-      "glass": "Riedel Nick & Nora",
+      "aperture": "ƒ/1.4",
+      "iso": "200",
+      "glass": "Orrefors More Coupe",
       "g01": "Orrefors Divine Champagne",
       "g02": "Orrefors More Coupe",
       "g03": "Orrefors Pulse",
@@ -60,13 +97,13 @@
       "g11": "Boda Nova Tumbler",
       "g12": "Exxent Grappa"
     },
-    "img": "046.jpg",
-    "uniqueColor": "#111111",
-    "gin": "Tanqueray London Dry Gin",
+    "img": "048.jpg",
+    "uniqueColor": "#40573e",
+    "gin": "Plymouth Gin",
     "vermouth": "Noilly Prat"
   },
   {
-    "id": "45",
+    "id": "47",
     "name": "Lydén Navy\nDry Martini",
     "recipe": "70 ml Lydén Distillery Navy Gin\n15 ml Marezzo Extra Dry\nCornichons",
     "tech": {
@@ -93,7 +130,7 @@
       "g11": "Boda Nova Tumbler",
       "g12": "Exxent Grappa"
     },
-    "img": "045.jpg",
+    "img": "047.jpg",
     "uniqueColor": "#8b754b",
     "gin": "Lydén Distillery Navy Gin",
     "vermouth": "Marezzo Extra Dry"

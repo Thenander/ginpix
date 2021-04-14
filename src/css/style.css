@@ -718,10 +718,12 @@ h4 {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .drinksModalBG .drinksInfo .recipe h3 {
+  .drinksModalBG .drinksInfo .recipe h3,
+  .drinksModalBG .drinksInfo .tech h3 {
     font-size: 1.8rem;
   }
-  .drinksModalBG .drinksInfo .recipe div {
+  .drinksModalBG .drinksInfo .recipe div,
+  .drinksModalBG .drinksInfo .tech div {
     font-size: 0.9rem;
   }
 }
