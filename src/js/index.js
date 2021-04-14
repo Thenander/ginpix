@@ -1,33 +1,41 @@
 const IMG_BASE_URL = 'img/'
 
 let arrayLength = 0
-let drinks = []
 let count = 0
 
-const fetchData = async () => {
+const getSearchedItem = (drinks, searchTerm, item) => {
+  try {
+    return drinks.filter(e => {
+      return e[item] === searchTerm
+    })
+  } catch (error) {
+    console.log('getSearchedItem():', error)
+  }
+}
+
+const fetchData = async (search = false) => {
   const response = await fetch('json/drinks.json')
   const data = await response.json()
 
-  // // Filtering
-  // const newData = data.drinks.filter(e => {
-  //   return e.searchTermTonic === 'Ekobryggeriet Spruce Shoots Tonic'
-  // })
-  // arrayLength = newData.length
-  // const addedArray = newData.slice(count, count + 3)
+  if (search) {
+    console.log('All drinks:', data)
+    console.log(
+      'Search result (ex. Lydén Distillery Navy Gin):',
+      getSearchedItem(data.drinks, 'Lydén Distillery Navy Gin', 'gin')
+    )
+  } else {
+    arrayLength = data.drinks.length
+    const drinks = data.drinks.slice(count, count + 3)
 
-  arrayLength = data.drinks.length
-  const addedArray = data.drinks.slice(count, count + 3)
+    count += 3
 
-  drinks = addedArray
+    const drinkWrapper = document.querySelector('.drinkWrapper')
+    drinkWrapper.append(makeDrinkRow(drinks))
 
-  count += 3
+    const cardsLength = document.getElementsByClassName('drinkCard').length
 
-  const drinkWrapper = document.querySelector('.drinkWrapper')
-  drinkWrapper.append(makeDrinkRow(drinks))
-
-  const cardsLength = document.getElementsByClassName('drinkCard').length
-
-  if (cardsLength >= arrayLength) document.querySelector('.loadMore').remove()
+    if (cardsLength >= arrayLength) document.querySelector('.loadMore').remove()
+  }
 }
 
 // More loading
@@ -41,21 +49,21 @@ const fetchAndCreateFilters = async () => {
   const response = await fetch('json/drinks.json')
   const data = await response.json()
 
-  const gins = {}
-  const tonics = {}
-  const vermouthes = {}
-  const sweetVermouthes = {}
-  const glasses = {}
-  const lenses = {}
+  const gin = {}
+  const tonic = {}
+  const vermouth = {}
+  const sweetVermouth = {}
+  const glass = {}
+  const lens = {}
 
   data.drinks.forEach(drink => {
     const searchTerms = [
-      { name: drink.gin, list: gins },
-      { name: drink.tonic, list: tonics },
-      { name: drink.vermouth, list: vermouthes },
-      { name: drink.sweetVermouth, list: sweetVermouthes },
-      { name: drink.tech.glass, list: glasses },
-      { name: drink.tech.lens, list: lenses },
+      { name: drink.gin, list: gin },
+      { name: drink.tonic, list: tonic },
+      { name: drink.vermouth, list: vermouth },
+      { name: drink.sweetVermouth, list: sweetVermouth },
+      { name: drink.tech.glass, list: glass },
+      { name: drink.tech.lens, list: lens },
     ]
 
     searchTerms.forEach(item => {
@@ -66,8 +74,18 @@ const fetchAndCreateFilters = async () => {
     })
   })
 
-  return { gins, tonics, vermouthes, sweetVermouthes, glasses, lenses }
+  console.log('Filters:', {
+    gin,
+    tonic,
+    vermouth,
+    sweetVermouth,
+    glass,
+    lens,
+  })
+  return { gin: gin, tonic, vermouth, sweetVermouth, glass, lens }
 }
+
+fetchAndCreateFilters()
 
 window.onload = () => {
   const observedHero = document.getElementById('home')
@@ -323,7 +341,7 @@ const makeDrinkRow = drinks => {
 // Print copyright
 document.querySelector(
   '.copyright'
-).innerText = `© ${new Date().getFullYear()} Joacim Thenander. All rights reserved`
+).innerText = `© ${new Date().getFullYear()} Joacim Thenander / Mauer Art. All rights reserved`
 
 // Hamburger menu
 const hamburgerBtn = document.querySelector('.menu-toggle')
