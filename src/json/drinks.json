@@ -1,6 +1,23 @@
 {
   "drinks": [
     {
+      "id": "47",
+      "name": "Lydén Navy\nDry Martini",
+      "recipe": "70 ml Lydén Distillery Navy Gin\n15 ml Marezzo Extra Dry\nCornichons",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
+        "shutter": "1/60",
+        "aperture": "ƒ/1.8",
+        "iso": "200",
+        "glass": "Orrefors Street Martini"
+      },
+      "img": "047.jpg",
+      "uniqueColor": "#8b754b",
+      "gin": "Lydén Distillery Navy Gin",
+      "vermouth": "Marezzo Extra Dry"
+    },
+    {
       "id": "46",
       "name": "Tanqueray\nDry Martini",
       "recipe": "60 ml Tanqueray London Dry Gin\n15 ml Noilly Prat Dry Vermouth\nOlives",
