@@ -1,6 +1,40 @@
 {
   "drinks": [
     {
+      "id": "h1",
+      "name": "Hendrick's\nGin and Tonic",
+      "recipe": "50 ml Hendrick's Gin\n100 ml Schweppes Indian Tonic\nLemon\nJuniper berries\nIce",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
+        "shutter": "1/8000",
+        "aperture": "ƒ/1.8",
+        "iso": "320",
+        "glass": "Orrefors Street Highball"
+      },
+      "img": "h1.jpg",
+      "uniqueColor": "#3371c9",
+      "gin": "Hendrick's Gin",
+      "tonic": "Schweppes Indian Tonic"
+    },
+    {
+      "id": "h2",
+      "name": "Hendrick's\nDry Martini",
+      "recipe": "75 ml Hendrick's Gin\n15 ml Noilly Prat Dry Vermouth\nPickled cucumber",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Samyang MF 35 F1.4 AS UMC",
+        "shutter": "1/80",
+        "aperture": "ƒ/1.4",
+        "iso": "200",
+        "glass": "Orrefors Divine Champagne"
+      },
+      "img": "h2.jpg",
+      "uniqueColor": "#0f0f0f",
+      "gin": "Hendrick's Gin",
+      "vermouth": "Noilly Prat"
+    },
+    {
       "id": "47",
       "name": "Lydén Navy\nDry Martini",
       "recipe": "70 ml Lydén Distillery Navy Gin\n15 ml Marezzo Extra Dry\nCornichons",
@@ -13,7 +47,7 @@
         "glass": "Orrefors Street Martini"
       },
       "img": "047.jpg",
-      "uniqueColor": "#8b754b",
+      "uniqueColor": "#253709",
       "gin": "Lydén Distillery Navy Gin",
       "vermouth": "Marezzo Extra Dry"
     },
