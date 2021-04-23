@@ -1,7 +1,40 @@
 {
   "drinks": [
     {
-      "id": "h1",
+      "id": "48",
+      "name": "Plymouth\nDry Martini",
+      "recipe": "60 ml Plymouth Gin\n15 ml Noilly Prat\n2 dashes of lemon juice\nLemon zest",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Canon EF 50 f/1.4 USM",
+        "l1": "Canon EF 50 f/1.4 USM",
+        "l2": "Samyang MF 35 F1.4 AS UMC",
+        "l3": "Samyang MF 135 T2.2 VDSLR ED UMC",
+        "l4": "Sony FE 55 f/1.8 ZA Sonnar T*",
+        "shutter": "1/60",
+        "aperture": "ƒ/1.4",
+        "iso": "200",
+        "glass": "Orrefors More Coupe",
+        "g01": "Orrefors Divine Champagne",
+        "g02": "Orrefors More Coupe",
+        "g03": "Orrefors Pulse",
+        "g04": "Orrefors Street Highball",
+        "g05": "Orrefors Street Martini",
+        "g06": "Kosta Boda Line",
+        "g07": "Iittala Essence Cocktail Bowl",
+        "g08": "Iittala Essence Tumbler",
+        "g09": "Riedel Nick & Nora",
+        "g10": "Schott Zwiesel Gin Tonic",
+        "g11": "Boda Nova Tumbler",
+        "g12": "Exxent Grappa"
+      },
+      "img": "048.jpg",
+      "uniqueColor": "#40573e",
+      "gin": "Plymouth Gin",
+      "vermouth": "Noilly Prat"
+    },
+    {
+      "id": "471",
       "name": "Hendrick's\nGin and Tonic",
       "recipe": "50 ml Hendrick's Gin\n100 ml Schweppes Indian Tonic\nLemon\nJuniper berries\nIce",
       "tech": {
@@ -18,7 +51,7 @@
       "tonic": "Schweppes Indian Tonic"
     },
     {
-      "id": "h2",
+      "id": "472",
       "name": "Hendrick's\nDry Martini",
       "recipe": "75 ml Hendrick's Gin\n15 ml Noilly Prat Dry Vermouth\nPickled cucumber",
       "tech": {
