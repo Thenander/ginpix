@@ -416,7 +416,9 @@ h4 {
     }
 
     &:hover {
-      opacity: 1;
+      @media screen and (min-width: 992px) {
+        opacity: 1;
+      }
     }
   }
   img {

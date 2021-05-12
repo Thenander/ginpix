@@ -1,6 +1,23 @@
 {
   "drinks": [
     {
+      "id": "55",
+      "name": "Plymouth\nDry Martini",
+      "recipe": "60ml Plymouth Dry Gin\n15ml Noilly Prat Extra Dry Vermouth\n2 dash of lemon juice\nLemon zest",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Canon EF 50 f/1.4 USM",
+        "shutter": "1/100",
+        "aperture": "ƒ/1.4",
+        "iso": "200",
+        "glass": "Riedel Nick & Nora"
+      },
+      "img": "055.jpg",
+      "uniqueColor": "#d8bc1f",
+      "gin": "Plymouth Gin",
+      "vermouth": "Noilly Prat"
+    },
+    {
       "id": "54",
       "name": "Hammars Hernö\nGin and Tonic",
       "recipe": "50 ml Hernö Gin\n100 ml Hammars Bryggeri Sea Buckthorn & Rosemary\nSea Buckthorn\nRosemary\nJunipers\nIce",
