@@ -1,6 +1,92 @@
 {
   "drinks": [
     {
+      "id": "60",
+      "name": "ND Mountain\nGin and Tonic",
+      "recipe": "50 ml Norrbottens Destilleri Mountain Dry Gin\n100 ml Fever Tree Mediterranean Tonic\nOrange wedges\nOrange zest\nIce",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
+        "shutter": "1/8",
+        "aperture": "ƒ/1.8",
+        "iso": "100",
+        "glass": "Schott Zwiesel Gin Tonic"
+      },
+      "img": "060.jpg",
+      "uniqueColor": "#bc6d02",
+      "gin": "Norrbottens Destilleri Mountain Dry Gin",
+      "tonic": "Fever Tree Mediterranean Tonic"
+    },
+    {
+      "id": "59",
+      "name": "Gibson's Exception\nGibson Martini",
+      "recipe": "75ml Gibson Exception London Dry Martini\n10ml Noilly Prat Dry Vermouth\nPearl onions",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
+        "shutter": "1/8",
+        "aperture": "ƒ/1.8",
+        "iso": "100",
+        "glass": "Orrefors More Coupe"
+      },
+      "img": "059.jpg",
+      "uniqueColor": "#55524c",
+      "gin": "Gibson's Exception London Dry Gin",
+      "vermouth": "Noilly Prat"
+    },
+    {
+      "id": "58",
+      "name": "Stockholms Bränneri\nPerfect Martini",
+      "recipe": "75 ml AB Stockholms Bränneri Dry Gin\n7,5 ml Noilly Prat Dry Vermouth\n7,5 ml Martini Rosso\nCitronzest",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
+        "shutter": "1/60",
+        "aperture": "ƒ/1.8",
+        "iso": "250",
+        "glass": "Iittala Essence Cocktail Bowl"
+      },
+      "img": "058.jpg",
+      "uniqueColor": "#7d4700",
+      "gin": "AB Stockholms Bränneri Dry Gin",
+      "vermouth": "Noilly Prat",
+      "sweetVermouth": "Martini Rosso"
+    },
+    {
+      "id": "57",
+      "name": "Hammars\nGin and Tonic",
+      "recipe": "50 ml Hernö Gin\n100 ml Hammars Bryggeri Sea Buckthorn & Rosemary\nRosemary\nSea Buckthorn\nJunipers\nIce",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Sony FE 55 f/1.8 ZA Sonnar T*",
+        "shutter": "1/200",
+        "aperture": "ƒ/1.8",
+        "iso": "200",
+        "glass": "Schott Zwiesel Gin Tonic"
+      },
+      "img": "057.jpg",
+      "uniqueColor": "#be6323",
+      "gin": "Hernö Gin",
+      "tonic": "Hammars Bryggeri Sea Buckthorn & Rosemary"
+    },
+    {
+      "id": "56",
+      "name": "Local's Edition\nDry Martini",
+      "recipe": "75 ml Åre Bränneri Local´s Edition Scandinavian Gin\n15 ml Noilly Prat Dry Vermouth\nOlives",
+      "tech": {
+        "camera": "Sony A7 II",
+        "lens": "Samyang MF 135 T2.2 VDSLR ED UMC",
+        "shutter": "1/30",
+        "aperture": "ƒ/2.0",
+        "iso": "100",
+        "glass": "Orrefors Street Martini"
+      },
+      "img": "056.jpg",
+      "uniqueColor": "#8b9d01",
+      "gin": "Åre Bränneri Local's Edition Scandinavian Gin",
+      "vermouth": "Noilly Prat"
+    },
+    {
       "id": "55",
       "name": "Plymouth\nDry Martini",
       "recipe": "60ml Plymouth Dry Gin\n15ml Noilly Prat Extra Dry Vermouth\n2 dash of lemon juice\nLemon zest",
